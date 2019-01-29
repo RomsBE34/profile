@@ -1,0 +1,147 @@
+
+
+body {
+    background: #D9DADF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: #5A635D;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+h1 {
+    color: #0EA5C6;
+    font-family: 'Karla', sans-serif ;
+    font-size: 32px;
+    line-height: 1.6em;
+    font-weight: 700;
+
+}
+
+h2 {
+    color: #5A635D;
+    font-family: 'Lato', sans-serif ;
+    font-size: 17px;
+    line-height: 1em;
+    font-weight: 600;
+
+
+}
+
+h3 {
+    color: #0EA5C6;
+    font-family: 'Lato', sans-serif ;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: 600;
+
+}
+
+a {
+    color: #B7BCB9;
+    text-decoration: none;
+
+}
+
+a:hover {
+  color: #0EA5C6
+}
+
+p {
+    display: block
+    margin-block-start: 1em
+    margin-block-end: 1em
+    margin-inline-start: 0px
+    margin-inline-end: 0px
+    font-size: 12;
+}
+
+/*img {
+  border-radius: 10%;
+}*/
+
+img {
+  width: 250px;
+  height: 250px;
+
+
+}
+
+.btn-blue {
+    background-color: #0EA5C6;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.profile-card .btn-blue {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 30px;
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.image-circle {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.card-picture {
+  border-radius: 5%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
